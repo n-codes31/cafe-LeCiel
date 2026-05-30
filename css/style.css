@@ -298,8 +298,12 @@ footer {
         display: none;
     }
     
+    #menu-sp {
+        display: none;
+    }
+
     /* スマホ用ボタンとメニューを表示する */
-    .hamburger, .nav-sp {
+    #hamburger,.nav-sp {
         display: block;
     }
 
@@ -346,18 +350,15 @@ footer {
         top: 37px;
         transform: translateY(-6px) rotate(33deg);
     }
+
     .nav-sp {
-        display: none;
-        display: flex;
-        flex-direction: column;
         position: absolute;
-        top: 100%; /* ヘッダーのすぐ下にくっつける */
+        top: 100%;
         left: 0;
         width: 100%;
         background-color: #DCEAF7;
         z-index: 90;
         padding: 100px 40px 300px 40px;
-        gap: 36px;
     }
 
     .nav-sp ul {
