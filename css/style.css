@@ -156,7 +156,7 @@ header {
 }
 
 .menu-name {
-    font-size: 18px;
+    font-size: 20px;
     color: #333333;
 }
 
@@ -167,7 +167,7 @@ header {
 }
 
 .price {
-    font-size: 18px;
+    font-size: 20px;
     color: #7FAEDB;
 }
 
@@ -429,7 +429,7 @@ footer {
     }
 
     .menu-name,.price {
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .access-section {
